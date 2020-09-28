@@ -132,4 +132,10 @@ function updateFilters() {
 
 ![](https://github.com/christianhargett/UFOs/blob/master/NoFilters.png)
 
-### 
+### The user is then able to input data in each input box in the filter search. Once the user inputs the data (note: it is important that the user's input matches the placeholder format EXACTLY in order for the filter to work) and hits tab or clicks elsewhere, then the data table will be filtered:
+
+![](https://github.com/christianhargett/UFOs/blob/master/DateFilter.png)
+
+### The user is then able to continue adding filters to each input box and the table will reset to match each filter:
+
+![](https://github.com/christianhargett/UFOs/blob/master/AllFilters.png)
