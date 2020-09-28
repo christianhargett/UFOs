@@ -125,3 +125,11 @@ function updateFilters() {
   // Build the table when the page loads
   buildTable(tableData);
 ```
+
+## Results
+
+### Our final webpage has a sleek display that contains a "Jumbotron", a navigation bar at the very top labelled "UFO Sightings" that is used to reload the page/reset the filters, a title, and a paragraph that gives an overview of the background for the webpage and what the webpage can be used for. Towards the bottom left of the page are where the user can enter their filters, and towards the bottom right is the table that contains all of the data for the UFO sightings.
+
+![](https://github.com/christianhargett/UFOs/blob/master/NoFilters.png)
+
+### 
