@@ -34,4 +34,32 @@ function buildTable(data) {
 
 ### We also created a function in our JS file that allows us to filter by date. This JS file combined with our HTML file creates a webpage that displays all of the UFO sightings data that the user can easily filter by a date of their choice.
 
-### Dana then asked us to update our code so that the webpage also contains filters for city, state, country, and shape of the sighted UFO. 
+### Dana then asked us to update our code so that the webpage also contains filters for city, state, country, and shape of the sighted UFO. In order to do this, we updated our HTML file to remove the filter "button" that we initially created and replaced it with four more additional lists for user input. These inputs were created for users to enter information about state, city, country, and shape (snippet provided below):
+
+```
+       <li class="list-group-item bg-dark">
+                <label for="date">Enter Date</label>
+                <input type="text" placeholder="1/10/2010" id="datetime" />
+              </li>
+
+              <li class="list-group-item bg-dark">
+                <label for="city">Enter City</label>
+                <input type="text" placeholder="benton" id="city" />
+              </li>
+
+              <li class="list-group-item bg-dark">
+                <label for="state">Enter State</label>
+                <input type="text" placeholder="ar" id="state" />
+              </li>
+
+              <li class="list-group-item bg-dark">
+                <label for="country">Enter Country</label>
+                <input type="text" placeholder="us" id="country" />
+              </li>
+
+              <li class="list-group-item bg-dark">
+                <label for="shape">Enter Shape</label>
+                <input type="text" placeholder="circle" id="shape" />
+              </li>
+```
+
