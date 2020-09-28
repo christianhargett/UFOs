@@ -32,4 +32,6 @@ function buildTable(data) {
   }
   ```
 
-### Dana has asked us to update our code so that the webpage also contains filters for city, state, country, and shape of the sighted UFO. 
+### We also created a function in our JS file that allows us to filter by date. This JS file combined with our HTML file creates a webpage that displays all of the UFO sightings data that the user can easily filter by a date of their choice.
+
+### Dana then asked us to update our code so that the webpage also contains filters for city, state, country, and shape of the sighted UFO. 
