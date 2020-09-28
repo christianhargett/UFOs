@@ -139,3 +139,13 @@ function updateFilters() {
 ### The user is then able to continue adding filters to each input box and the table will reset to match each filter:
 
 ![](https://github.com/christianhargett/UFOs/blob/master/AllFilters.png)
+
+### Finally, the user is able to reset all filters by clicking the "UFO Sightings" text at the very top left of the webpage.
+
+## Summary
+
+### While our webpage accomplishes the task at hand, there are definitely areas for improvement. One drawback to the website is that each filter input must match the placeholder format exactly in order for the filters to work. This means that there cannot be any mispellings and there cannot be capitalizations to any letters, else the filters will not work properly.
+
+### One recommendation that might improve the site's functionality is to either have the filter input autocomplete while you are typing (much like a Google search). This will limit user error while filtering because it would decrease the amount of times a user misspelled a keyword.
+
+### Another recommendation to improve the site is to add the ability to filter for multiple values at a time for one field. For example, a user might want to view all of the UFO sightings in St. Louis, MO as well as El Cajon, CA. In its current state, the webpage only allows you to filter for one value per field at a time.
